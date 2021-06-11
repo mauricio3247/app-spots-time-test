@@ -95,6 +95,7 @@ export default (_props: any) => {
 
         <ItemLayout>
           <Button
+            type="primary"
             icon={<GoogleOutlined />}
             onClick={signInWithProvider}
           >
